@@ -1,0 +1,426 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(andrew-neel-cckf4TsHAuw-unsplash.jpg);
+    background-size: cover;
+    height: 640;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style-type: initial;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: oldlace;
+    text-decoration: solid;
+    padding: 5px 20px;
+    font-family: "Helvetica", "Arial";
+    font-size: 16px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid yellow;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+body
+{
+    font-family: fantasy;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 1200px;
+    position: absolute;
+}
+
+h1
+{
+    color: white;
+    font: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 75px;
+    padding: 100 px 300px;
+
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 420px;
+}
+
+.btn-one
+{
+    border:solid white;
+    padding: 10px 30px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    margin-right: 3px;
+    margin-top: 10px;
+    text-decoration: wavy;
+}
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family: monospace;
+}
+
+.btn-two
+{
+    border:solid white;
+    padding: 10px 30px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    margin-right: 3px;
+    margin-top: 10px;
+    text-decoration: wavy;
+}
+
+.btn-two
+{
+    background-color: darkorange;
+    font-family: monospace;
+}
+
+.btn-two:hover
+{
+    background-color: deepskyblue;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-one:hover
+{
+    background-color: deepskyblue;
+    transition: all 0.5s ease-in-out;
+}
+
+.tab2 img
+{
+    width: 150px;
+    height: auto;
+    top: 50%
+    left: 50%
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px 0;
+    display: grid;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(photo-1497091071254-cc9b2ba7c48a.jpg);
+    background-size: cover;
+    height: 640;
+    background-position: center;
+}
+
+.ser
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ilyass-seddoug-cETNuFEa7f8-unsplash.jpg);
+    background-size: cover;
+    height: 640;
+    background-position: center;
+}
+
+.nav-bar
+{
+    float: left;
+    list-style-type: initial;
+    list-style-position: outside;
+    margin-top: -400px;
+    margin-left: 20px;
+}
+
+.nav-bar li
+{
+    display: -webkit-box;
+}
+
+.nav-bar li a
+{
+    color: lime;
+    text-decoration: solid;
+    padding: 10px 20px;
+    font-family: "Helvetica", "Arial";
+    font-size: 40px;
+}
+.contact-form
+{
+    width: 85%;
+    max-width: 600px;
+    background-clip: content-box;
+    background: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box box-shadow:0 0 20px #000000b3;
+    font-family: "Montserrat", sans-serif
+
+}
+
+.contact-form h2{
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    margin-top: 6px;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.bton{
+    display: block;
+    background: black;
+    padding: 10px 0;
+    color: darkorange;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.container{
+    margin-left: 120px;
+      width: 100%;
+      margin-top: 40px;
+}
+.gallery{
+width: 20%;
+float: left;
+padding: 20px;
+padding-left: 10px;  
+display: inline-table;
+overflow: hidden;
+border-radius: 3px;
+
+}
+
+img{
+width: 100%;
+  border-radius: 4px;
+
+}
+
+img:hover{
+transform: scale(2,2);
+transition: .3s transform;
+
+}
+.desc
+{
+
+    font-family: 'Dokdo', cursive;
+    font-size: 15px;
+    padding: 20px;
+    color: ivory;
+    }
+
+.desc
+{
+    border:solid white;
+    padding: 10px 30px;
+    font-family: monospace;
+    color: white;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-decoration: wavy;
+}
+
+.desc
+{
+    background-color: darkorange;
+    font-family: monospace;
+}
+
+footer .copyright-area .credit-text {
+    letter-spacing: 1.2px;
+}
+footer .copyright-area .copyright-text, footer .copyright-area .credit-text {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    align-content: flex-start;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+footer .copyright-area {
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer {
+    display: block;
+    background-color: #02b839;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    clear: both;
+}
+footer {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    font-family: Varela Round,sans-serif;
+    font-display: optional;
+    color: black;
+    background-color: #f3f3f3;
+}
+footer {
+    font-size: 16px;
+    letter-spacing: .01em;
+}
+footer.copyright-area {
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+iframe{
+    margin-top: 150px;
+    margin-left: +600px;
+}
+audio{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.containera {
+  border: 3px solid orange;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.containerab {
+    border-radius: 6px;
+    padding: 16px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+/* Clear floats after containers */
+.containera::after {
+  content: "";
+  clear: both;
+  display: flexbox;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.containera img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.containera span {
+  font-size: 22px;
+  text-decoration-style: double;
+  margin-right: 15px;
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containera p
+    margin-left: 100px;
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 300px) {
+  .containera {
+    text-align: center;
+  }
+
+  .containera img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
