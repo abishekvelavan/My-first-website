@@ -7,9 +7,10 @@
 header
 {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(andrew-neel-cckf4TsHAuw-unsplash.jpg);
-    background-size: cover;
+    background-size: auto;
     height: 640;
     background-position: center;
+    wid
 }
 
 .main-nav
@@ -79,7 +80,7 @@ h1
     text-align: center;
     margin-top: 250px;
     margin-left: 75px;
-    padding: 100 px 300px;
+    padding: 10 px 20px;
 
 }
 
@@ -157,14 +158,13 @@ h1
 body
 {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(photo-1497091071254-cc9b2ba7c48a.jpg);
-    background-size: cover;
+    background-size: auto;
     height: 640;
     background-position: center;
 }
 
 .ser
 {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ilyass-seddoug-cETNuFEa7f8-unsplash.jpg);
     background-size: cover;
     height: 640;
     background-position: center;
@@ -212,7 +212,7 @@ body
 }
 
 .contact-form h2{
-    margin-top: 0;
+    margin-top: 50;
     font-weight: 200;
 }
 
@@ -340,7 +340,7 @@ footer {
 footer {
     position: relative;
     margin: 0;
-    min-height: 100%;
+    min-height: 10%;
     font-family: Varela Round,sans-serif;
     font-display: optional;
     color: black;
@@ -423,4 +423,8 @@ audio{
     float: none;
     display: block;
   }
+}
+label.btn-radio{
+    margin-top: 200px;
+
 }
